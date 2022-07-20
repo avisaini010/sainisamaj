@@ -641,14 +641,22 @@ aspect-ratio: 400/300;
 .services .title {
   margin-left: 80px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
   font-size: 18px;
+  line-height: 1.2;
 }
 .services .title a {
   color: #343a40;
 }
 .services .title a:hover {
   color: #149ddd;
+}
+#services .subtitle {
+  margin-left: 80px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.2;
 }
 .services .description {
   margin-left: 80px;
