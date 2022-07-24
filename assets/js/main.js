@@ -9,7 +9,27 @@
 
   /**
    * Easy selector helper function
+   * 
+   * 
    */
+
+  //  debugger
+//  document.getElementById('submitEnqry').addEventListener('onclick', 'submitEnquiry(event)');
+//   debugger
+//    function submitEnquiry(event){
+//      event.preventDefault();
+//      alert(100);
+//      debugger
+//      var name = document.form.name.value;
+//      var email= document.form.email.value;
+//      var  subject= document.form.subject.value;
+//      var  message= document.form.message.value;
+//      console.log(name, email, subject, message)
+//      debugger
+//    }
+
+
+
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -252,5 +272,11 @@
       mirror: false
     })
   });
+
+
+  // integrating enquiry api into site
+
+
+
 
 })()

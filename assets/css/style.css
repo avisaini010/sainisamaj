@@ -976,3 +976,11 @@ aspect-ratio: 400/300;
     padding-right: 20px 15px;
   }
 }
+
+
+
+/* google form hide elements */
+
+iframe form#mG61Hd .DqBBlb, form#mG61Hd  .tIvQIf, form#mG61Hd  .zAVwcb, form#mG61Hd  .xpWfed, form#mG61Hd .T2dutf {
+  display: none !important;
+}
